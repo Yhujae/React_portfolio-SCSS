@@ -1,0 +1,165 @@
+@import "../../app.scss";
+
+.portfolio {
+  position: relative;
+
+  .progress {
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding-top: 50px;
+    text-align: center;
+    color: rgba(32, 29, 71, 0.724);
+    font-size: 36px;
+
+    @include desktop {
+      font-size: 40px;
+    }
+
+    @include tablet {
+      font-size: 30px;
+    }
+
+    @include mobile {
+      padding-top: calc(100vh - 100px);
+      font-size: 24px;
+    }
+
+    .progressBar {
+      height: 5px;
+      background-color: #524e4e5f;
+
+      @include desktop {
+        height: 4px;
+      }
+
+      @include tablet {
+        height: 3px;
+      }
+    }
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+    .wrapper {
+      max-width: 1366px;
+      height: 100%;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 50px;
+
+      @include mobile {
+        flex-direction: column;
+      }
+
+      .imageContainer {
+        flex: 1;
+        height: 50%;
+        width: 80%;
+
+        @include desktop {
+          margin-left: 30px;
+        }
+        @include tablet {
+          margin-left: 20px;
+        }
+
+        @include mobile {
+          width: 100%;
+          max-height: 300px;
+        }
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+
+          @include tablet {
+            object-fit: contain;
+          }
+
+          @include mobile {
+            object-fit: contain;
+          }
+        }
+      }
+
+      .textContainer {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        @include desktop {
+          transform: none !important;
+          padding-right: 20px;
+          gap: 15px;
+          align-items: left;
+        }
+
+        @include tablet {
+          transform: none !important;
+          padding: 20px;
+          gap: 15px;
+          align-items: left;
+        }
+
+        @include mobile {
+          transform: none !important;
+          padding: 10px;
+          align-items: center;
+          text-align: center;
+        }
+
+        h2 {
+          font-size: 72px;
+
+          @include desktop {
+            font-size: 62px;
+            text-align: left;
+          }
+
+          @include tablet {
+            font-size: 50px;
+            text-align: left;
+          }
+
+          @include mobile {
+            font-size: 36px;
+          }
+        }
+
+        p {
+          color: gray;
+          font-size: 20px;
+
+          @include tablet {
+            font-size: 18px;
+            text-align: left;
+          }
+
+          @include mobile {
+            font-size: 16px;
+            text-align: center;
+          }
+        }
+
+        button {
+          background-color: #efbf10;
+          border-radius: 10px;
+          border: none;
+          padding: 10px;
+          width: 200px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

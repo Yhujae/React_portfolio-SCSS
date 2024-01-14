@@ -1,12 +1,12 @@
 import "./app.scss";
-import Contact from "./components/contact/Contact.";
+import Contact from "./components/contact/Contact";
+// import CoverPage from "./components/coverPage/CoverPage";
 import Cursor from "./components/cursor/Cursor";
 import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
 import Parallax from "./components/parallax/Parallax";
 import Portfolio from "./components/portfolio/Portfolio";
 import Services from "./components/services/Services";
-import IconGroup from "./components/test/IconGroup";
 
 const App = () => {
   return (
@@ -30,7 +30,7 @@ const App = () => {
         <Contact />
       </section>
       {/* <section>
-        <IconGroup />
+        <CoverPage />
       </section> */}
     </div>
   );

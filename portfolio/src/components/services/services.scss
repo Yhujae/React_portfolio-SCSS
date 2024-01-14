@@ -200,7 +200,7 @@
 
         .line {
           position: absolute;
-          background-color: #a9a3a380;
+          background-color: #cecbcbde;
           width: 100px;
           height: 1px;
           margin-top: 25px;
@@ -208,6 +208,13 @@
           @include mobile {
             display: none;
           }
+
+          // @include tablet {
+          //   background-color: #cecbcbde;
+          //   width: 100px;
+          //   height: 1px;
+          //   margin-top: 25px;
+          // }
         }
 
         button {

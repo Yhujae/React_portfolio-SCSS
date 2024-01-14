@@ -1,0 +1,170 @@
+// coverPage.scss
+body {
+  background-color: #fff;
+
+  .coverPage {
+    background-color: #f0f0f0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+
+    .container {
+      background-color: #f0f0f0;
+      margin: auto;
+      width: 80%;
+      height: 100%;
+      display: flex;
+
+      .left,
+      .right {
+        position: relative;
+        width: 50%;
+        height: 200%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .experience1,
+        .experience3,
+        .experience2,
+        .experience4 {
+          width: 500px;
+          height: 500px;
+          background-color: white;
+          padding: 5px;
+          flex: 1;
+
+          ul {
+            li {
+              line-height: 2;
+              font-size: 18px;
+              color: #827e7e;
+              font-weight: 400;
+            }
+          }
+        }
+
+        .experience1 {
+          margin-left: 15%;
+          margin-top: 5%;
+          border-bottom: 10px solid rgb(13, 105, 94);
+          border-bottom-right-radius: 30px;
+          border-top-left-radius: 30px;
+        }
+
+        .experience2 {
+          margin-top: 55%;
+          margin-left: -15%;
+          border-bottom: 10px solid coral;
+          border-bottom-left-radius: 30px;
+          border-top-right-radius: 30px;
+        }
+
+        .experience3 {
+          margin-top: 55%;
+          margin-left: 15%;
+          border-bottom: 10px solid rgb(89, 172, 208);
+          border-bottom-right-radius: 30px;
+          border-top-left-radius: 30px;
+        }
+
+        .experience4 {
+          border-bottom: 10px solid brown;
+          margin-top: 48.5%;
+          margin-left: -15%;
+          border-bottom-left-radius: 30px;
+          border-top-right-radius: 30px;
+        }
+      }
+
+      .line {
+        position: relative;
+        background-color: white;
+        // box-shadow: 0 0 10px 1px rgba(177, 176, 176, 0.1);
+        width: 5px;
+        height: 200vh;
+        margin: 0 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .circle1,
+        .circle2,
+        .circle3,
+        .circle4 {
+          position: absolute;
+          background-color: white;
+          width: 80px;
+          height: 80px;
+          border-radius: 50%;
+          border: 4px solid white;
+          box-shadow: 0 4px 3px 2px rgba(0, 0, 0, 0.1);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .circle1 {
+          background-color: white;
+          top: 2%;
+        }
+        .circle2 {
+          background-color: coral;
+          top: 27.5%;
+        }
+        .circle3 {
+          background-color: rgb(89, 172, 208);
+          top: 53.5%;
+        }
+        .circle4 {
+          background-color: white;
+          border: 4px solid white;
+          top: 77%;
+        }
+      }
+
+      .textBox1,
+      .textBox2,
+      .textBox3,
+      .textBox4 {
+        background-color: transparent;
+        width: 250px;
+        height: 100px;
+
+        p {
+          font-size: 20px;
+          font-weight: 500;
+          text-align: center;
+        }
+
+        .textIcon {
+          font-size: 20px;
+          margin-left: 10px;
+          margin-right: 10px;
+          margin-bottom: -2px;
+        }
+      }
+
+      .textBox1 {
+        margin-top: 7%;
+        margin-left: -60%;
+      }
+
+      .textBox2 {
+        margin-right: -60%;
+        margin-top: 10%;
+      }
+
+      .textBox3 {
+        margin-left: -60%;
+        margin-top: 11%;
+      }
+
+      .textBox4 {
+        margin-right: -60%;
+        margin-top: 10%;
+      }
+    }
+  }
+}

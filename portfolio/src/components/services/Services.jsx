@@ -43,7 +43,8 @@ function Services() {
         <div className='title'>
           <img src='/meeting.jpg' alt='' />
           <h1>
-            <motion.b whileHover={{ color: "#e6bf32" }}>Unique </motion.b>Ideas
+            <motion.b whileHover={{ color: "#e6bf32" }}>Unique </motion.b>
+            Ideas
           </h1>
         </div>
         <div className='title'>
@@ -58,6 +59,8 @@ function Services() {
             whileHover={{
               backgroundColor: "#caa623",
               border: "none",
+              color: "black",
+              fontWeight: "400",
               scale: 1.1,
             }}
           >
@@ -69,7 +72,7 @@ function Services() {
       <motion.div className='listContainer' variants={variants}>
         <motion.div
           className='box'
-          whileHover={{ backgroundColor: "#0c0c1d", color: "white" }}
+          whileHover={{ backgroundColor: "#0c0c1dae", color: "white" }}
         >
           <h2>Web App Development</h2>
           <p>
@@ -85,7 +88,7 @@ function Services() {
         </motion.div>
         <motion.div
           className='box'
-          whileHover={{ backgroundColor: "#0c0c1d", color: "white" }}
+          whileHover={{ backgroundColor: "#0c0c1dae", color: "white" }}
         >
           <h2>User Interface (UI) Design</h2>
           <p>
@@ -100,7 +103,7 @@ function Services() {
         </motion.div>
         <motion.div
           className='box'
-          whileHover={{ backgroundColor: "#0c0c1d", color: "white" }}
+          whileHover={{ backgroundColor: "#0c0c1dae", color: "white" }}
         >
           <h2>Website Development</h2>
           <p>
@@ -115,7 +118,7 @@ function Services() {
         </motion.div>
         <motion.div
           className='box'
-          whileHover={{ backgroundColor: "#0c0c1d", color: "white" }}
+          whileHover={{ backgroundColor: "#0c0c1dae", color: "white" }}
         >
           <h2>Frontend Frameworks</h2>
           <p>

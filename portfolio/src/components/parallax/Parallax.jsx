@@ -20,7 +20,7 @@ function Parallax({ type }) {
       style={{
         background:
           type === "services"
-            ? " linear-gradient(180deg, #ced5f7, #0c0c1d)"
+            ? " linear-gradient(180deg, #ced5f7, #494961)"
             : " linear-gradient(180deg, #0c0c1d, #ced5f7)",
       }}
     >
@@ -33,7 +33,7 @@ function Parallax({ type }) {
         style={{
           y: yBg,
           backgroundImage: `url(${
-            type === "services" ? "/planets.png" : "/sun.png"
+            type === "services" ? "/sun.png" : "/planets.png"
           })`,
           marginTop: "-300px",
           marginLeft: "50px",

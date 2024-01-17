@@ -33,7 +33,7 @@ function Parallax({ type }) {
         style={{
           y: yBg,
           backgroundImage: `url(${
-            type === "services" ? "/sun.png" : "/planets.png"
+            type === "services" ? "/planets.png" : "/sun.png"
           })`,
           marginTop: "-300px",
           marginLeft: "50px",

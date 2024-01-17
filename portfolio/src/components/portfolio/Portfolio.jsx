@@ -5,29 +5,22 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 const items = [
   {
     id: 1,
-    title: "React Commerce",
-    img: "/pexels-1.jpg",
-    desc: " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, eius. Harum, obcaecati nemo in totam reprehenderit. ",
+    title: "React Portfolio",
+    img: "/portfolio.jpg",
+    desc: "  Created a functional web-based portfolio on the frontend, styled with Tailwind CSS. ",
   },
   {
     id: 2,
-    title: "React.js App",
-    img: "/pexels-1.jpg",
-    desc: " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, eius. Harum, obcaecati nemo in totam reprehenderit. ",
+    title: "Landing Page",
+    img: "/fashion.jpg",
+    desc: "   Develop a frontend Landing page written in react and styled using bootstrap CSS ",
   },
 
   {
     id: 3,
     title: "Todo App",
     img: "/todo.jpg",
-    desc: " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, eius. Harum, obcaecati nemo in totam reprehenderit. ",
-  },
-
-  {
-    id: 4,
-    title: "Music App",
-    img: "/pexels-1.jpg",
-    desc: " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, eius. Harum, obcaecati nemo in totam reprehenderit. ",
+    desc: "  A simple Todo app written in react and javascript, and styled using CSS.",
   },
 ];
 

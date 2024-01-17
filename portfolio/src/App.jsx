@@ -1,6 +1,5 @@
 import "./app.scss";
 import Contact from "./components/contact/Contact";
-// import CoverPage from "./components/coverPage/CoverPage";
 import Cursor from "./components/cursor/Cursor";
 import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
@@ -29,9 +28,6 @@ const App = () => {
       <section id='Contact'>
         <Contact />
       </section>
-      {/* <section>
-        <CoverPage />
-      </section> */}
     </div>
   );
 };

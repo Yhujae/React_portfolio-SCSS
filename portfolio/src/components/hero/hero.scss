@@ -77,6 +77,9 @@
     }
 
     .buttons {
+      cursor: pointer;
+      z-index: 1;
+
       button {
         padding: 20px;
         border: 2px solid #3578af;
@@ -86,6 +89,8 @@
         margin-right: 20px;
         font-weight: 500;
         font-size: 14px;
+        z-index: 1;
+        cursor: pointer;
 
         @include tablet {
           padding: 10px;
@@ -94,10 +99,12 @@
     }
 
     img {
-      background-color: #1f425e8c;
-      padding: 5px;
-      border-radius: 10px;
-      width: 50px;
+      width: 60px;
+      margin-left: 20%;
+
+      @include mobile {
+        margin: 0;
+      }
     }
   }
 
@@ -150,6 +157,7 @@
     color: #00000009;
     width: 50%;
     font-weight: bold;
+    // cursor: pointer;
 
     @include tablet {
       font-size: 30vh;

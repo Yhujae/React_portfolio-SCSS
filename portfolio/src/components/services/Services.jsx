@@ -43,13 +43,13 @@ function Services() {
         <div className='title'>
           <img src='/meeting.jpg' alt='' />
           <h1>
-            <motion.b whileHover={{ color: "#e6bf32" }}>Unique </motion.b>
+            <motion.b whileHover={{ color: "#ac8b08ab" }}>Unique </motion.b>
             Ideas
           </h1>
         </div>
         <div className='title'>
           <h1>
-            <motion.b whileHover={{ color: "#e6bf32" }} b>
+            <motion.b whileHover={{ color: "#ac8b08ab" }} b>
               For Your
             </motion.b>{" "}
             Business
@@ -57,7 +57,7 @@ function Services() {
 
           <motion.button
             whileHover={{
-              backgroundColor: "#caa623",
+              backgroundColor: "#ac8b08ab",
               border: "none",
               color: "black",
               fontWeight: "400",

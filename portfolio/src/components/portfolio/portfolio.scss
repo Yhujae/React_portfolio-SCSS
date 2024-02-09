@@ -120,10 +120,11 @@
         }
 
         h2 {
-          font-size: 72px;
+          font-size: 60px;
+          color: #4f400738;
 
           @include desktop {
-            font-size: 62px;
+            font-size: 56px;
             text-align: left;
           }
 
@@ -158,6 +159,7 @@
           border: none;
           padding: 10px;
           width: 200px;
+          font-weight: 500;
           cursor: pointer;
         }
       }

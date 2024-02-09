@@ -1,5 +1,5 @@
 import "./Footer.scss";
-import { FaGithub, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
+import { FaEnvelope, FaGithub, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   const emailAddress = "fabbyent@gmail.com";
@@ -7,12 +7,8 @@ const Footer = () => {
     <div className='footer'>
       <p>&copy; 2023 Yhujae Dev</p>
       <div className='social'>
-        <a
-          href={`mailto:${emailAddress}`}
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          <FaWhatsapp />
+        <a href='#contact'>
+          <FaEnvelope />
         </a>
         <a
           href='https://github.com/yhujae'

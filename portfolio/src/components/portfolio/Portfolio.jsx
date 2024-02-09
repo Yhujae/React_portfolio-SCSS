@@ -8,12 +8,14 @@ const items = [
     title: "React Portfolio",
     img: "/portfolio.jpg",
     desc: "  Created a functional web-based portfolio on the frontend, styled with Tailwind CSS. ",
+    liveLink: "https://github.com/Yhujae/portfolio_tailwind",
   },
   {
     id: 2,
     title: "Landing Page",
     img: "/fashion.jpg",
-    desc: "   Develop a frontend Landing page written in react and styled using bootstrap CSS ",
+    desc: "   Developed a frontend Landing page written in react and styled using bootstrap CSS ",
+    liveLink: "https://github.com/Yhujae/my_project",
   },
 
   {
@@ -21,6 +23,7 @@ const items = [
     title: "Todo App",
     img: "/todo.jpg",
     desc: "  A simple Todo app written in react and javascript, and styled using CSS.",
+    liveLink: "https://github.com/Yhujae/todo_app",
   },
 ];
 
@@ -29,10 +32,13 @@ const Single = ({ item }) => {
 
   const { scrollYProgress } = useScroll({
     target: ref,
-    // offset: ["end end", "start start"],
   });
 
   const y = useTransform(scrollYProgress, [0, 1], [-100, 100]);
+
+  const handleliveLinkClick = () => {
+    window.open(item.liveLink, "_blank");
+  };
 
   return (
     <section>
@@ -44,7 +50,7 @@ const Single = ({ item }) => {
           <motion.div className='textContainer' style={{ y }}>
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
-            <button>See Demo</button>
+            <button onClick={handleliveLinkClick}>See Live Link</button>
           </motion.div>
         </div>
       </div>

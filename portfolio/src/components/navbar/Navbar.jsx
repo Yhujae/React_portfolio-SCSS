@@ -1,6 +1,7 @@
 import Sidebar from "../sidebar/Sidebar";
 import "./navbar.scss";
 import { motion } from "framer-motion";
+import { FaEnvelope, FaGithub, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 function Navbar() {
   return (
     <div className='navbar'>
@@ -14,17 +15,22 @@ function Navbar() {
           Yhujae Dev
         </motion.span>
         <div className='social'>
-          <a href=''>
-            <img src='/facebook.png' alt='' />
+          <a
+            href='https://github.com/yhujae'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaGithub />
           </a>
-          <a href=''>
-            <img src='/instagram.png' alt='' />
+          <a
+            href='https://www.linkedin.com/in/precious-roberts-404a37254'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaLinkedinIn />
           </a>
-          <a href=''>
-            <img src='/youtube.png' alt='' />
-          </a>
-          <a href=''>
-            <img src='/dribbble.png' alt='' />
+          <a href='#contact'>
+            <FaEnvelope />
           </a>
         </div>
       </div>

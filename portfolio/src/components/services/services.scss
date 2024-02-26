@@ -122,7 +122,7 @@
         height: 100px;
         border-radius: 50px;
         background-color: transparent;
-        border: 1.5px solid #e3b604;
+        border: 1.5px solid #f5cd2d;
         font-size: 24px;
         cursor: pointer;
         color: lightgrey;
@@ -195,16 +195,16 @@
       }
 
       .buttonContainer {
-        width: 100px;
+        width: 200px;
         height: 50px;
         display: flex;
         justify-content: center;
 
         .line {
           position: absolute;
-          background-color: #cecbcbde;
-          width: 80px;
-          height: 1px;
+          background: #ddd9d9;
+          width: 120px;
+          height: 3px;
           margin-top: 25px;
 
           @include mobile {
@@ -222,11 +222,16 @@
         button {
           position: relative;
           padding: 20px;
-          background-color: #ac8b08;
+          padding-top: 17px;
+          background-color: #17294d;
+          color: #f2c753;
           border: none;
           cursor: pointer;
           z-index: 1;
-          border-radius: 5px;
+          border-radius: 10px;
+          font-weight: 500;
+          font-size: 14px;
+          text-align: center;
 
           @include tablet {
             background-color: #caa623;

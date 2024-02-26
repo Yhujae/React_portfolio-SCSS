@@ -57,9 +57,9 @@ function Services() {
 
           <motion.button
             whileHover={{
-              backgroundColor: "#ac8b08ab",
+              backgroundColor: "#24417b",
               border: "none",
-              color: "black",
+              color: "#f1f1f1",
               fontWeight: "400",
               scale: 1.1,
             }}
@@ -83,7 +83,7 @@ function Services() {
 
           <div className='buttonContainer'>
             <div className='line'></div>
-            <button>Go</button>
+            <button>Learn more</button>
           </div>
         </motion.div>
         <motion.div
@@ -98,7 +98,7 @@ function Services() {
           </p>
           <div className='buttonContainer'>
             <div className='line'></div>
-            <button>Go</button>
+            <button>Learn more</button>
           </div>
         </motion.div>
         <motion.div
@@ -113,7 +113,7 @@ function Services() {
           </p>
           <div className='buttonContainer'>
             <div className='line'></div>
-            <button>Go</button>
+            <button>Learn more</button>
           </div>
         </motion.div>
         <motion.div
@@ -127,7 +127,7 @@ function Services() {
           </p>
           <div className='buttonContainer'>
             <div className='line'></div>
-            <button>Go</button>
+            <button>Learn more</button>
           </div>
         </motion.div>
       </motion.div>

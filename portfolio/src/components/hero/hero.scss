@@ -105,6 +105,10 @@
       @include mobile {
         margin: 0;
       }
+
+      @include tablet {
+        margin-left: 2%;
+      }
     }
   }
 
@@ -113,6 +117,7 @@
     position: absolute;
     top: 0;
     right: 50px;
+    margin-right: 12%;
 
     img {
       height: 100%;

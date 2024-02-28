@@ -67,6 +67,7 @@ function Contact() {
       <motion.div
         ref={ref}
         className='contact'
+        id='contact'
         variants={variants}
         initial='initial'
         whileInView='animate'
@@ -78,15 +79,15 @@ function Contact() {
           <motion.div className='textContainerItem' variants={variants}>
             <motion.div className='item' variants={variants}>
               <h2>Mail</h2>
-              <span>hello@react.dev</span>
+              <span>yhujayp757@gmail.com</span>
             </motion.div>
             <motion.div className='item' variants={variants}>
               <h2>Phone</h2>
-              <span>+234 0903 774 8481</span>
+              <span>+234 8130965570</span>
             </motion.div>
             <motion.div className='item' variants={variants}>
               <h2>Address</h2>
-              <span>hello street Abuja</span>
+              <span>Abuja, Nigeria</span>
             </motion.div>
           </motion.div>
         </motion.div>

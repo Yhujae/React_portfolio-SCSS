@@ -57,11 +57,12 @@ function Services() {
 
           <motion.button
             whileHover={{
-              backgroundColor: "#24417b",
-              border: "none",
+              backgroundColor: "transparent",
+              border: "1.5px solid #f5cd2d",
               color: "#f1f1f1",
               fontWeight: "400",
-              scale: 1.1,
+              scale: 0.9,
+              transition: { duration: 0.5 },
             }}
           >
             WHAT WE DO

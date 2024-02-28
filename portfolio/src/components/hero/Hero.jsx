@@ -43,7 +43,7 @@ function Hero() {
         >
           <motion.h2 variants={textVariants}>PRECIOUS ROBERTS</motion.h2>
           <motion.h1 variants={textVariants}>
-            Front-End React Developer and UI Designer
+            Front-End Developer and UI Designer
           </motion.h1>
           <motion.div variants={textVariants} className='buttons'>
             <motion.button variants={textVariants}>

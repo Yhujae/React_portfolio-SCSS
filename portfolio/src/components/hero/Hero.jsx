@@ -33,7 +33,7 @@ const sliderVariants = {
 };
 function Hero() {
   return (
-    <div className='hero'>
+    <div className='hero' id='Home'>
       <div className='wrapper'>
         <motion.div
           className='textContainer'

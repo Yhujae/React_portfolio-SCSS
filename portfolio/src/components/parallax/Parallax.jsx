@@ -16,6 +16,7 @@ function Parallax({ type }) {
   return (
     <div
       className='parallax'
+      id='About'
       ref={ref}
       style={{
         background:

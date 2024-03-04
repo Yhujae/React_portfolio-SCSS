@@ -41,7 +41,7 @@ const Single = ({ item }) => {
   };
 
   return (
-    <section>
+    <section id='Projects'>
       <div className='container'>
         <div className='wrapper'>
           <div className='imageContainer' ref={ref}>

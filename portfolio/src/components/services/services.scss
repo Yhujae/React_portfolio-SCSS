@@ -202,8 +202,8 @@
 
         .line {
           position: absolute;
-          background: #ddd9d9;
-          width: 120px;
+          background: #a1a1a1;
+          width: 125px;
           height: 3px;
           margin-top: 25px;
         }
@@ -212,9 +212,9 @@
           position: relative;
           padding: 20px;
           padding-top: 17px;
-          background-color: #17294d;
+          background-color: #212b42;
           color: #f2c753;
-          border: none;
+          border: 0.5px solid #7e7c7c;
           cursor: pointer;
           z-index: 1;
           border-radius: 10px;

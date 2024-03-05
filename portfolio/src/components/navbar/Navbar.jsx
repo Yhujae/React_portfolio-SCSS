@@ -29,9 +29,6 @@ function Navbar() {
           >
             <FaLinkedinIn />
           </a>
-          <a href='#contact'>
-            <FaEnvelope />
-          </a>
         </div>
       </div>
     </div>
